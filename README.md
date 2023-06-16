@@ -11,5 +11,23 @@ To make a plant recommendation feature we create a model through temperature, hu
 * by Image
    * Deep Learning : CNN
 
+Steps to run this project:
+1. Crop Recomendations
+* Clustering :
+   * Upload crop_recomendation.csv into notebook
+   * Run runtimes
+   * The results of each cluster will become a new dataset
+   * Export the new dataset to a .csv file for classification using a decision tree
+   * The model will be saved in .pickle format 
+* Klasifikasi :
+   * Train each new cluster dataset into a decision tree model
+   * The model will be saved in .pickle format
+
+2. Soil type prediction
+* Enter data into Google Drive
+* Customize the data train path
+* Run runtimes 
+* The model will be saved in .h5 and .json format
+
 
  
